@@ -21,10 +21,7 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css');
 @import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
 :root {--accent: 98.00787045,121.00999580324999,204.99450000000002;}
-.backdropImage {filter: blur(18px);}
-.backdropImage {filter: saturate(120%);}
-.backdropImage {filter: contrast(120%);}
-.backdropImage {filter: brightness(40%);}
+.backdropImage {filter: blur(8px);saturate(120%);contrast(120%);brightness(40%);}
 :root {--rounding: 12px;}
 
 /* Make links look like buttons */
